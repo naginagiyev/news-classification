@@ -54,7 +54,7 @@ In order to run the FastAPI server, run following command on your terminal:
 ```bash
 uvicorn api:app --reload
 ```
-The API will be available at `http://localhost:8000`
+The API will be available at `http://127.0.0.1:8000/docs`
 
 API Endpoints:
 - `POST /predict`: Get predictions for news text
