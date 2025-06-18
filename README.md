@@ -59,7 +59,10 @@ API Endpoints:
 
 ## Model Training
 
+Before the train models, you need to open preprocessing.ipynb and run all cells with order. As Github does not accept large files like the dataset we'll use in this training, you need to preprocess and save it before the running training codes.
+
 ### CatBoost Model Training
+
 1. Open and run the `catboosttrain.ipynb` notebook
 2. The notebook will:
    - Load and preprocess the data
@@ -73,4 +76,4 @@ API Endpoints:
    - Fine-tune the XLM-RoBERTa model
    - Save the model to the `./models/xlm-roberta/` directory
 
-**NOTE:** The XLM-Roberta model is trained on Google Colab in more that 3 hours overall. It is not recommended to run such a large model in local computer, as small notebooks are lack of GPU and it will probably cause errors such as OutOfMemory error.
+**NOTE:** The XLM-Roberta model is trained on Google Colab in more than 3 hours overall. It is not recommended to run such a large model on a local computer, as small notebooks are lack of GPU and it will probably cause errors such as OutOfMemory error.
