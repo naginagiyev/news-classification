@@ -35,6 +35,8 @@ pip install -r requirements.txt
 
 ## Running the Application
 
+Before running the application, you should train XLM-Roberta-Base model and let it save the model and its tokenizers into directory. The model itself is too large to push to Github. That's why, firstly you need to train it or use a pre-trained model and place it on the folder.
+
 ### Web Interface (Streamlit)
 There exist a user interface where you can select and test both of the trained models.In order to run the Streamlit web interface, run following command:
 ```bash
