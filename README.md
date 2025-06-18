@@ -33,6 +33,8 @@ cd news-classification
 pip install -r requirements.txt
 ```
 
+3. Python version of the environment for that task is 3.10.16
+
 ## Running the Application
 
 Before running the application, you should train XLM-Roberta-Base model and let it save the model and its tokenizers into directory. The model itself is too large to push to Github. That's why, firstly you need to train it or use a pre-trained model and place it on the folder.
